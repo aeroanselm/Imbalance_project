@@ -30,11 +30,13 @@ m_prop_EPC = m_dot_EPC*t_burn_EPC;
 
 
 % SOLID ROCKET BOOSTER (EAP)
-t_burn_EAP = 130;
-m_prop_EAP = 240000;
-Isp_EAP = 274.5;
-T_EAP = 6000000;
-m_dot_EAP = T_EAP/g0/Isp_EAP;
+t_burn_EAP = 135;
+m_prop_EAP = 237800;
+Isp_EAP = 262;
+T_EAP = 5400000;
+m_dot_EAP_single = T_EAP/g0/Isp_EAP;
+T_EAP_both = T_EAP*2;
+m_dot_EAP = m_dot_EAP_single*2;
 
 
 % CRYOGENIC UPPER STAGE (ESC-A)
@@ -44,3 +46,17 @@ T_ESC = 67000;
 Isp_ESC = 446;
 m_dot_ESC = T_ESC/Isp_ESC/g0;
 m_prop_ESC = m_dot_ESC*t_burn_ESC;
+
+
+%% Vertical launch without drag. Thrust+gravity
+
+T_par = T_EAP_both + T_EPC;
+
+Isp_par = T_par/((m_dot_EAP + m_dot_EPC)*g0);
+t_mission = 30;
+mf_30s = m0 - m_dot_EAP*t_mission - m_dot_EPC*t_mission;
+DV_paraller = -Isp_par*g0*log(mf_30s/m0) - g0*t_mission;
+
+ve = T_par/(m_dot_EAP + m_dot_EPC);
+MR = mf_30s/m0;
+h = -ve*t_mission*(MR*log(MR)/(MR-1)-1) - 0.5*g0*t_mission;
