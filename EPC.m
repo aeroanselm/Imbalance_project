@@ -1,18 +1,16 @@
-% data.m - Ariane 5 ECA ---Imbalance project---
+% EPC.m - Ariane 5 ECA ---Imbalance project---
 %  
 % TYPE:
-%   Data Script
+%   EPC auxiliary script
 %
 % DESCRIPTION: 
-%   This routine is used to import data relative to the Ariane 5 ECA 
-%   launcher by ESA.  
-%       
+%   This routine is used to calculate the thrust profile of the EPC main core
+%   stage.
+%
 % Notes for upgrading this script: 
-%   Do not change the structure of the script. In this script structures are
-%   used in order to provide in the correct way data to the functions used 
-%   in other scripts of this project. DO NOT add constants that can be easily
-%   computed starting form other ones (avoid redundancy).
-%   Contact the author for modifications.        
+%   Please do not upgrade directly this script. Make a your local copy and do
+%   your modifications and upgrades and send me the upgraded script.
+%   Contact the author for modifications.
 %
 % REFERENCES:
 %   - Ariane 5 Users Manual October 2016
@@ -67,25 +65,43 @@
 %
 % --------------------------------------------------------------------------
 
-% DEFINED CONSTANTS
-g0 = 9.81;
+[EPCout]=rocket(EPCdata);
 
-% CRYOGENIC MAIN CORE STAGE (EPC)
-EPCdata = struct('mprop',   173300,  ...
-                 'e_ratio', 61.5,    ...
-                 'gamma',   1.2873,  ...
-                 'Pcc',    11600000,...
-                 'Tcc',    3539.57, ...
-                 'mmol',    13.534,  ...
-                 'mp',      175000,  ...
-                 'tburn',   540,     ...
-                 'nengines',1);
+EPC_Pe     = EPCout.Pe;    
+EPC_Ve     = EPCout.Ve;    
+EPC_rho_cc = EPCout.rho_cc;
+EPC_rho_e  = EPCout.rho_e;
+EPC_mdot_p = EPCout.mdot_p;
+EPC_A_e    = EPCout.A_e;   
+EPC_a_e    = EPCout.a_e;   
+EPC_Te     = EPCout.Te;    
+EPC_Me     = EPCout.Me;    
+EPC_IspSL  = EPCout.IspSL; 
+EPC_IspVac = EPCout.IspVac;
 
-% SOLID ROCKET BOOSTER (EAP)
-    
-load('thrust_b.mat');
-t = 0:130;
-EAP_IspSL = 262;
-EAP_IspVac = 274.5;
-EAP_Isp = (EAP_IspSL+EAP_IspVac)/2;
+a = 0.0065;
+g = 9.81;
+T_z0 = 288.16;
+T_z11000 = T_z0-a*11000;
+P_z0 = 101325;
+R = 287;
+n = g/(R*a);
+
+P_amb_z11000 = P_z0*(1-a*11000/T_z0).^n;
+
+
+z = [0:145000];
+P_amb = [P_z0*(1-a*z(1:11001)/T_z0).^n P_amb_z11000*exp(-g/(R*T_z11000)*(z(11002:145001)-11000))];
+
+EPC_P_amb = P_amb(1:145001);
+
+EPC_T = (EPC_mdot_p*EPC_Ve + (EPC_Pe-EPC_P_amb)*EPC_A_e);
+
+figure()
+hold on
+grid on
+plot(z(1:145001),EPC_T)
+xlabel('Altitude [km]')
+ylabel('Thrust [N]')
+title('EPC Thrust vs Altitude')
 

@@ -1,18 +1,18 @@
-% data.m - Ariane 5 ECA ---Imbalance project---
+% EAP.m - Ariane 5 ECA ---Imbalance project---
 %  
 % TYPE:
-%   Data Script
+%   EAP auxiliary script
 %
 % DESCRIPTION: 
-%   This routine is used to import data relative to the Ariane 5 ECA 
-%   launcher by ESA.  
-%       
+%   This routine is used to calculate the thrust profile of the EAP solid
+%   rocket boosters. In order to do this, linear interpolation method is used,
+%   starting from graphical data computed using the document A5prop.pdf, provided
+%   along with this script.
+%
 % Notes for upgrading this script: 
-%   Do not change the structure of the script. In this script structures are
-%   used in order to provide in the correct way data to the functions used 
-%   in other scripts of this project. DO NOT add constants that can be easily
-%   computed starting form other ones (avoid redundancy).
-%   Contact the author for modifications.        
+%   Please do not upgrade directly this script. Make a your local copy and do
+%   your modifications and upgrades and send me the upgraded script.
+%   Contact the author for modifications.
 %
 % REFERENCES:
 %   - Ariane 5 Users Manual October 2016
@@ -67,25 +67,13 @@
 %
 % --------------------------------------------------------------------------
 
-% DEFINED CONSTANTS
-g0 = 9.81;
+EAP_T = @(t) interp1(x,y,t);
+EAP_mdot = @(t) EAP_T(t)/g0/EAP_Isp;
 
-% CRYOGENIC MAIN CORE STAGE (EPC)
-EPCdata = struct('mprop',   173300,  ...
-                 'e_ratio', 61.5,    ...
-                 'gamma',   1.2873,  ...
-                 'Pcc',    11600000,...
-                 'Tcc',    3539.57, ...
-                 'mmol',    13.534,  ...
-                 'mp',      175000,  ...
-                 'tburn',   540,     ...
-                 'nengines',1);
-
-% SOLID ROCKET BOOSTER (EAP)
-    
-load('thrust_b.mat');
-t = 0:130;
-EAP_IspSL = 262;
-EAP_IspVac = 274.5;
-EAP_Isp = (EAP_IspSL+EAP_IspVac)/2;
-
+figure()
+hold on
+grid on
+plot(0:130,EAP_T(0:130));           % for debugging only
+xlabel('Time [sec]')
+ylabel('Thrust [N]')
+title('EAP Thrust vs Time')

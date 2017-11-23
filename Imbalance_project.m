@@ -1,18 +1,17 @@
-% data.m - Ariane 5 ECA ---Imbalance project---
+% Imbalance_project.m - Ariane 5 ECA ---Imbalance project---
 %  
 % TYPE:
-%   Data Script
+%   Main Script
+%
+% Notes for upgrading this script: 
+%   Please do not upgrade directly this script. Make a your local copy and do
+%   your modifications and upgrades and send me the upgraded script.
+%   Contact the author for modifications.
 %
 % DESCRIPTION: 
-%   This routine is used to import data relative to the Ariane 5 ECA 
-%   launcher by ESA.  
-%       
-% Notes for upgrading this script: 
-%   Do not change the structure of the script. In this script structures are
-%   used in order to provide in the correct way data to the functions used 
-%   in other scripts of this project. DO NOT add constants that can be easily
-%   computed starting form other ones (avoid redundancy).
-%   Contact the author for modifications.        
+%   This routine is used to simulate and analyze scenarios in
+%   case of imbalance between the twin externaln rockets operating as boost 
+%   stage relative to the Ariane 5 ECA launcher by ESA.         
 %
 % REFERENCES:
 %   - Ariane 5 Users Manual October 2016
@@ -67,25 +66,13 @@
 %
 % --------------------------------------------------------------------------
 
-% DEFINED CONSTANTS
-g0 = 9.81;
+clear 
+close all
+clc
+%% Imbalance project
+data
+EAP
+EPC
 
-% CRYOGENIC MAIN CORE STAGE (EPC)
-EPCdata = struct('mprop',   173300,  ...
-                 'e_ratio', 61.5,    ...
-                 'gamma',   1.2873,  ...
-                 'Pcc',    11600000,...
-                 'Tcc',    3539.57, ...
-                 'mmol',    13.534,  ...
-                 'mp',      175000,  ...
-                 'tburn',   540,     ...
-                 'nengines',1);
-
-% SOLID ROCKET BOOSTER (EAP)
-    
-load('thrust_b.mat');
-t = 0:130;
-EAP_IspSL = 262;
-EAP_IspVac = 274.5;
-EAP_Isp = (EAP_IspSL+EAP_IspVac)/2;
-
+T_boost = @(k) interp1(x,y,k);
+EAP_mprop = EAP_mprop_int (EAP_mdot(1:130))
