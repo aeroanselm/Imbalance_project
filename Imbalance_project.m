@@ -77,8 +77,23 @@ EPC
 of = 6;
 mdot_LH2=EPC_mdot_p/(of+1);
 mdot_LOX=of*mdot_LH2;
+
+%% EAP - Propellant mass consumption at time instant (wrt EAP) 18 sec 71 sec
+%  EAP start burning at T+7 seconds so the real instants of measurments are 11 and 64 seconds.  
+
 T_boost = @(k) interp1(x,y,k);
-EAP_mprop = EAP_mprop_int (EAP_mdot(0:118))
+
+EAP_mprop_discharged11 = EAP_mprop_int (EAP_mdot(0:18));
+EAP_mprop_discharged64 = EAP_mprop_int (EAP_mdot(0:71));
+
+%% EPC - Propellant mass consumption at time instant (wrt EAP) 18 sec 71 sec
+%  EAP start burning at T+7 seconds so the real instants of measurments are 11 and 64 seconds.  
+
+EPC_mprop_LH2_discharged11 = mdot_LH2*11;
+EPC_mprop_LOX_discharged11 = mdot_LOX*11;
+EPC_mprop_LH2_discharged64 = mdot_LH2*64;
+EPC_mprop_LOX_discharged64 = mdot_LOX*64;
+
 
 % Aerodynamics
 
