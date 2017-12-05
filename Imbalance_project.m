@@ -73,6 +73,12 @@ clc
 data
 EAP
 EPC
-
+%% EPC - Mass flow rates of LOX and LH2 
+of = 6;
+mdot_LH2=EPC_mdot_p/(of+1);
+mdot_LOX=of*mdot_LH2;
 T_boost = @(k) interp1(x,y,k);
-EAP_mprop = EAP_mprop_int (EAP_mdot(1:130))
+EAP_mprop = EAP_mprop_int (EAP_mdot(0:118))
+
+% Aerodynamics
+
