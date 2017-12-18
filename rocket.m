@@ -47,15 +47,17 @@ Tcc       = data.Tcc      ;
 mmol      = data.mmol     ;
 mprop     = data.mprop    ;
 tburn     = data.tburn    ;
-nengines = data.nengines;
+nengines  = data.nengines ;
 
 R = 8314.472;
 P_amb = 101325;
 g = 9.81;
 
 f = @(Pe) ((gamma+1)/2)^(1/(gamma-1))*(Pe/Pcc).^(1/gamma).*((gamma+1)/(gamma-1)*[1-(Pe/Pcc).^((gamma-1)/gamma)]).^(1/2)-1/e_ratio;
-[xvect,it] = bisez(0,100000,1*10^(-9),f);
-Pe = xvect(end);
+%[xvect,it] = bisez(0,100000,1*10^(-9),f);
+%Pe = xvect(end);
+%options = optimoptions('fzero','FunctionTolerance',1e-9);
+[Pe] = fzero(f,50000);%,options); 
 Ve = ((2*gamma/(gamma-1))*R/mmol*Tcc*[1-(Pe/Pcc)^((gamma-1)/gamma)])^(1/2);
 rho_cc = Pcc/R/Tcc*mmol;
 rho_e = rho_cc*(Pe/Pcc)^(1/gamma);

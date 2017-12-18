@@ -70,6 +70,16 @@
 EAP_T = @(t) interp1(x,y,t);
 EAP_mdot = @(t) EAP_T(t)/g0/EAP_Isp;
 
+
+figure()
+hold on
+grid on
+plot(x,y,'o');           % for debugging only
+xlabel('Time [sec]')
+ylabel('Thrust [N]')
+title('EAP Thrust vs Time')
+
+
 figure()
 hold on
 grid on
@@ -77,3 +87,12 @@ plot(0:130,EAP_T(0:130));           % for debugging only
 xlabel('Time [sec]')
 ylabel('Thrust [N]')
 title('EAP Thrust vs Time')
+
+
+figure()
+hold on
+grid on
+plot(0:130,EAP_mdot(0:130));           % for debugging only
+xlabel('Time [sec]')
+ylabel('$\dot{m}_p$ [kg/s]','Interpreter','latex')
+title('EAP $\dot{m}_p$ vs Time','Interpreter','latex')

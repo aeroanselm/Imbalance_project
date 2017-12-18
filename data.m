@@ -89,3 +89,45 @@ EAP_IspSL = 262;
 EAP_IspVac = 274.5;
 EAP_Isp = (EAP_IspSL+EAP_IspVac)/2;
 
+% GEOMETRICAL AND STRUCTURAL DATA
+l_B = 50.5;                                                                 % Body length [m]
+l_N = 7;                                                                    % Nose length [m]
+l_F = 17;                                                                   % Fairing length [m]
+l_ESCA = 4.711;                                                             % ESC-A length [m]
+l_EPC = 23.8;                                                               % EPC length [m]
+l_EAP = 30;                                                                 % EAP length [m]
+d_c = 1;                                                                    % Circle length [m]
+d_ESCA = 5.4;                                                               % ESC-A diameter [m]
+d_ref = d_ESCA;                                                             % Reference diameter [m]
+d_EPC = d_ESCA;                                                             % EPC diameter [m]
+d_EAP = 3.05;                                                               % EAP diameter [m]
+M_F = 2675 + 10000;															% Fairing mass
+M_ESCA = 4540 + 14900;                                                      % ESCA mass
+M_EPC = 12500 + 133000 + 26000;                                             % EPC mass
+M_EAP = 37000+238000;														% EAP mass
+d_EAP = 3.05;																% EAP diameter
+l_N_EAP = 4.375;															% EAP nose length
+
+
+% DATA
+
+l_B = 50.5;                                                                 % Body length [m]
+l_N = 7;                                                                    % Nose length [m]
+l_F = 17;                                                                   % Fairing length [m]
+l_ESCA = 4.711;                                                             % ESC-A length [m]
+l_EPC = 23.8;                                                               % EPC length [m]
+l_SRM = 30;                                                                 % SRM length [m]
+l_N_SRM = 4.375;                                                            % SRM nose length [m]
+x_f = 28.98;                                                                % SRM flare position [m]
+d_c = 1;                                                                    % Circle length [m]
+d_ESCA = 5.4;                                                               % ESC-A diameter [m]
+d_EPC = d_ESCA;                                                             % EPC diameter [m]
+d_SRM = 3.05;                                                               % SRM diameter [m]
+d_f = 3.10;                                                                 % SRM flare diameter [m]
+h_f = 1.02;                                                                 % SRM flare heigth [m]
+d_m = 0.5*(d_SRM+d_f);                                                      % SRM flare mean diameter [m]
+M_F = 2675 + 10000;                                                         % Fairing + Payload mass [kg]
+M_ESCA = 4540 + 14900;                                                      % ESC-A mass [kg]
+M_EPC = 12500 + 133000 + 26000;                                             % EPC mass [kg]
+M_SRM = 37000+238000;                                                       % SRM mass [kg]
+M_tot = M_F+M_ESCA+M_EPC+2*M_SRM;                                           % Ariane 5-ECA mass [kg]

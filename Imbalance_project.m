@@ -1,6 +1,6 @@
 % Imbalance_project.m - Ariane 5 ECA ---Imbalance project---
 %  
-% TYPE:
+% TYPE: 
 %   Main Script
 %
 % Notes for upgrading this script: 
