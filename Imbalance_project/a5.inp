@@ -1,0 +1,9 @@
+problem    o/f=6,6.2,6.3,6.4,
+      rocket  frozen  nfz=1 
+  p,bar=116,
+  sup,ae/at=61.5,
+react  
+  oxid=O2(L) 
+  fuel=H2(L) 
+output  massf short 
+end

@@ -1,0 +1,142 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$\alpha  $      }]\begingroup Angle of Attack                                                             \nomeqref {0}
+		\nompageref{5}
+  \item [{$\bar{y}     $        }]\begingroup Distance from symmetry axis to compute the torque                           \nomeqref {0}
+		\nompageref{5}
+  \item [{$\Delta T    $ }]\begingroup Total percentage random variation of the thrust                             \nomeqref {0}
+		\nompageref{5}
+  \item [{$\Delta T_1    $     }]\begingroup Percentage random variation of the left booster thrust                      \nomeqref {0}
+		\nompageref{5}
+  \item [{$\Delta T_2    $    }]\begingroup Percentage random variation of the right booster thrust                     \nomeqref {0}
+		\nompageref{5}
+  \item [{$\delta_{EAP1} $     }]\begingroup Deflection angle of the left booster nozzle                                 \nomeqref {0}
+		\nompageref{5}
+  \item [{$\delta_{EAP2} $     }]\begingroup Deflection angle of the right booster nozzle                                \nomeqref {0}
+		\nompageref{5}
+  \item [{$\delta_{EPC}  $   }]\begingroup Deflection angle of the main core stage nozzle                              \nomeqref {0}
+		\nompageref{5}
+  \item [{$\dot{m}_p$}]\begingroup Propellant mass flow rate\nomeqref {4.5}
+		\nompageref{19}
+  \item [{$\dot{m}_{prop}$      }]\begingroup propellant mass flow rate                                                   \nomeqref {0}
+		\nompageref{5}
+  \item [{$\gamma$}]\begingroup Heat capacity ratio\nomeqref {4.2}
+		\nompageref{18}
+  \item [{$\phi   $      }]\begingroup Bank angle                                                                  \nomeqref {0}
+		\nompageref{5}
+  \item [{$\rho_e$}]\begingroup Density of the hot gasses on the nozzle exit section\nomeqref {4.1}
+		\nompageref{18}
+  \item [{$\varepsilon$}]\begingroup Area expansion ratio\nomeqref {4.2}
+		\nompageref{18}
+  \item [{$a       $      }]\begingroup Semi-major axis of the lifting body                                         \nomeqref {0}
+		\nompageref{5}
+  \item [{$A_e$}]\begingroup Exit section area of the EPC nozzle\nomeqref {4.6}
+		\nompageref{19}
+  \item [{$A_f   $          }]\begingroup Flare Surface                                                               \nomeqref {0}
+		\nompageref{5}
+  \item [{$A_{EAP}  $       }]\begingroup Booster Surface                                                             \nomeqref {0}
+		\nompageref{5}
+  \item [{$A_{ref}    $     }]\begingroup Reference Area                                                              \nomeqref {0}
+		\nompageref{5}
+  \item [{$b       $      }]\begingroup Semi-minor axis of the lifting body                                         \nomeqref {0}
+		\nompageref{5}
+  \item [{$C_d         $  }]\begingroup Zero-Lift Drag Coefficient                                                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$C_N   $          }]\begingroup Normal Aerodynamic Force Coefficient                                          \nomeqref {0}
+		\nompageref{5}
+  \item [{$C_{N/\alpha}$     }]\begingroup Derivative of Normal Aerodynamic Force Coefficient with respect to $\alpha$ \nomeqref {0}
+		\nompageref{5}
+  \item [{$CG     $        }]\begingroup Centre of gravity position from the base                                    \nomeqref {0}
+		\nompageref{5}
+  \item [{$CP-CG     $        }]\begingroup Distance between the centre of pressure and the centre of gravity                                   \nomeqref {0}
+		\nompageref{5}
+  \item [{$d       $      }]\begingroup Generic diameter                                                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$d_m   $          }]\begingroup Minimum Diameter                                                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$d_{EAP}   $   }]\begingroup Booster diameter                                                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$d_{EPC}   $   }]\begingroup Main core stage diameter                                                    \nomeqref {0}
+		\nompageref{5}
+  \item [{$g_0$}]\begingroup Gravity acceleration\nomeqref {4.1}
+		\nompageref{18}
+  \item [{$h       $      }]\begingroup Generic height of the nose                                                  \nomeqref {0}
+		\nompageref{5}
+  \item [{$h_f   $          }]\begingroup Flare length                                                                \nomeqref {0}
+		\nompageref{5}
+  \item [{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.0}
+		\nompageref{18}
+  \item [{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.7}
+		\nompageref{20}
+  \item [{$I_{sp_{SL}}$}]\begingroup EAP specific impulse at Sea Level\nomeqref {4.7}
+		\nompageref{20}
+  \item [{$I_{sp_{vac}}$}]\begingroup EAP specific impulse in vacuum\nomeqref {4.7}
+		\nompageref{20}
+  \item [{$I_{sp}$}]\begingroup Specific Impulse\nomeqref {4.1}
+		\nompageref{18}
+  \item [{$l       $      }]\begingroup Generic Length                                                              \nomeqref {0}
+		\nompageref{5}
+  \item [{$l_B   $          }]\begingroup Body length                                                                 \nomeqref {0}
+		\nompageref{5}
+  \item [{$l_N   $          }]\begingroup Nose length                                                                 \nomeqref {0}
+		\nompageref{5}
+  \item [{$l_{EAP}  $       }]\begingroup Booster length                                                              \nomeqref {0}
+		\nompageref{5}
+  \item [{$M      $      }]\begingroup Mach Number                                                                 \nomeqref {0}
+		\nompageref{5}
+  \item [{$m_p$}]\begingroup Propellant mass\nomeqref {4.5}
+		\nompageref{19}
+  \item [{$m_s^{EAP}    $    }]\begingroup Booster structural mass                                                     \nomeqref {0}
+		\nompageref{5}
+  \item [{$m_s^{EPC}    $    }]\begingroup Main stage structural mass                                                  \nomeqref {0}
+		\nompageref{5}
+  \item [{$m_{ESC-A}    $    }]\begingroup Second stage mass                                                           \nomeqref {0}
+		\nompageref{5}
+  \item [{$m_{fairing}   $     }]\begingroup Fairing mass                                                                \nomeqref {0}
+		\nompageref{5}
+  \item [{$m_{mol}$}]\begingroup Molar mass of the combusted gasses\nomeqref {4.4}
+		\nompageref{19}
+  \item [{$M_{prop}   $       }]\begingroup Propellant mass                                                             \nomeqref {0}
+		\nompageref{5}
+  \item [{$N         $    }]\begingroup Normal Aerodynamic Force                                                    \nomeqref {0}
+		\nompageref{5}
+  \item [{$P_e$}]\begingroup Pressure of the hot gasses on the nozzle exit section\nomeqref {4.1}
+		\nompageref{18}
+  \item [{$P_{amb}$}]\begingroup Ambient pressure\nomeqref {4.1}
+		\nompageref{18}
+  \item [{$P_{cc}$}]\begingroup Combustion chamber pressure\nomeqref {4.2}
+		\nompageref{18}
+  \item [{$q         $    }]\begingroup Dynamic Pressure                                                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$R_u    $    }]\begingroup Universal gas constant                                                     \nomeqref {0}
+		\nompageref{5}
+  \item [{$S       $      }]\begingroup Reference surface                                                           \nomeqref {0}
+		\nompageref{5}
+  \item [{$S_b   $          }]\begingroup Base surface                                                                \nomeqref {0}
+		\nompageref{5}
+  \item [{$T_1     $        }]\begingroup Thrust of the left booster                                                  \nomeqref {0}
+		\nompageref{5}
+  \item [{$T_2     $        }]\begingroup Thrust of the right booster                                                 \nomeqref {0}
+		\nompageref{5}
+  \item [{$t_{burn}$}]\begingroup Burning time\nomeqref {4.5}
+		\nompageref{19}
+  \item [{$T_{cc}$}]\begingroup Combustion chamber temperature\nomeqref {4.4}
+		\nompageref{19}
+  \item [{$T_{EAP}    $     }]\begingroup Thrust of the boosters                                                      \nomeqref {0}
+		\nompageref{5}
+  \item [{$T_{EPC}    $     }]\begingroup Main Core Thrust                                                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$T_{ideal}     $  }]\begingroup Ideal Thrust                                                                \nomeqref {0}
+		\nompageref{5}
+  \item [{$V_e$}]\begingroup Velocity of the hot gasses on the nozzle exit section\nomeqref {4.1}
+		\nompageref{18}
+  \item [{$x_{cp}  $       }]\begingroup Centre of pressure of the launcher from the nose                            \nomeqref {0}
+		\nompageref{5}
+  \item [{$x_{cp}^{EAP}$      }]\begingroup Centre of pressure position of the booster from the nose                    \nomeqref {0}
+		\nompageref{5}
+  \item [{$x_{cp}^{EPC}$      }]\begingroup Centre of pressure position of the main core stage from the nose            \nomeqref {0}
+		\nompageref{5}
+
+\end{thenomenclature}

@@ -1,0 +1,10 @@
+\begin{thenomenclature} 
+
+ \nomgroup{A}
+
+  \item [{$\alpha$}]\begingroup Angle of Attack\nomeqref {3.3}
+		\nompageref{15}
+  \item [{$C_N$}]\begingroup Normal Aerodynamic Force Coefficient\nomeqref {3.3}
+		\nompageref{15}
+
+\end{thenomenclature}
