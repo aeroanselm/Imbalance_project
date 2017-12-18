@@ -47,22 +47,22 @@
 \nomenclatureentry{a$m_s^{EPC}    $    @[{$m_s^{EPC}    $    }]\begingroup Main stage structural mass                                                  \nomeqref {0}|nompageref}{5}
 \nomenclatureentry{a$m_s^{EAP}    $    @[{$m_s^{EAP}    $    }]\begingroup Booster structural mass                                                     \nomeqref {0}|nompageref}{5}
 \nomenclatureentry{a$R_u    $    @[{$R_u    $    }]\begingroup Universal gas constant                                                     \nomeqref {0}|nompageref}{5}
-\nomenclatureentry{a$I_{sp_{ave}}$@[{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.0}|nompageref}{18}
-\nomenclatureentry{a$I_{sp}$@[{$I_{sp}$}]\begingroup Specific Impulse\nomeqref {4.1}|nompageref}{18}
-\nomenclatureentry{a$V_e$@[{$V_e$}]\begingroup Velocity of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{18}
-\nomenclatureentry{a$P_e$@[{$P_e$}]\begingroup Pressure of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{18}
-\nomenclatureentry{a$P_{amb}$@[{$P_{amb}$}]\begingroup Ambient pressure\nomeqref {4.1}|nompageref}{18}
-\nomenclatureentry{a$\rho_e$@[{$\rho_e$}]\begingroup Density of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{18}
-\nomenclatureentry{a$g_0$@[{$g_0$}]\begingroup Gravity acceleration\nomeqref {4.1}|nompageref}{18}
-\nomenclatureentry{a$\varepsilon$@[{$\varepsilon$}]\begingroup Area expansion ratio\nomeqref {4.2}|nompageref}{18}
-\nomenclatureentry{a$\gamma$@[{$\gamma$}]\begingroup Heat capacity ratio\nomeqref {4.2}|nompageref}{18}
-\nomenclatureentry{a$P_{cc}$@[{$P_{cc}$}]\begingroup Combustion chamber pressure\nomeqref {4.2}|nompageref}{18}
-\nomenclatureentry{a$m_{mol}$@[{$m_{mol}$}]\begingroup Molar mass of the combusted gasses\nomeqref {4.4}|nompageref}{19}
-\nomenclatureentry{a$T_{cc}$@[{$T_{cc}$}]\begingroup Combustion chamber temperature\nomeqref {4.4}|nompageref}{19}
-\nomenclatureentry{a$\dot{m}_p$@[{$\dot{m}_p$}]\begingroup Propellant mass flow rate\nomeqref {4.5}|nompageref}{19}
-\nomenclatureentry{a$m_p$@[{$m_p$}]\begingroup Propellant mass\nomeqref {4.5}|nompageref}{19}
-\nomenclatureentry{a$t_{burn}$@[{$t_{burn}$}]\begingroup Burning time\nomeqref {4.5}|nompageref}{19}
-\nomenclatureentry{a$A_e$@[{$A_e$}]\begingroup Exit section area of the EPC nozzle\nomeqref {4.6}|nompageref}{19}
-\nomenclatureentry{a$I_{sp_{ave}}$@[{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.7}|nompageref}{20}
-\nomenclatureentry{a$I_{sp_{SL}}$@[{$I_{sp_{SL}}$}]\begingroup EAP specific impulse at Sea Level\nomeqref {4.7}|nompageref}{20}
-\nomenclatureentry{a$I_{sp_{vac}}$@[{$I_{sp_{vac}}$}]\begingroup EAP specific impulse in vacuum\nomeqref {4.7}|nompageref}{20}
+\nomenclatureentry{a$I_{sp_{ave}}$@[{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.0}|nompageref}{19}
+\nomenclatureentry{a$I_{sp}$@[{$I_{sp}$}]\begingroup Specific Impulse\nomeqref {4.1}|nompageref}{19}
+\nomenclatureentry{a$V_e$@[{$V_e$}]\begingroup Velocity of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{19}
+\nomenclatureentry{a$P_e$@[{$P_e$}]\begingroup Pressure of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{19}
+\nomenclatureentry{a$P_{amb}$@[{$P_{amb}$}]\begingroup Ambient pressure\nomeqref {4.1}|nompageref}{19}
+\nomenclatureentry{a$\rho_e$@[{$\rho_e$}]\begingroup Density of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{19}
+\nomenclatureentry{a$g_0$@[{$g_0$}]\begingroup Gravity acceleration\nomeqref {4.1}|nompageref}{19}
+\nomenclatureentry{a$\varepsilon$@[{$\varepsilon$}]\begingroup Area expansion ratio\nomeqref {4.2}|nompageref}{19}
+\nomenclatureentry{a$\gamma$@[{$\gamma$}]\begingroup Heat capacity ratio\nomeqref {4.2}|nompageref}{19}
+\nomenclatureentry{a$P_{cc}$@[{$P_{cc}$}]\begingroup Combustion chamber pressure\nomeqref {4.2}|nompageref}{19}
+\nomenclatureentry{a$m_{mol}$@[{$m_{mol}$}]\begingroup Molar mass of the combusted gasses\nomeqref {4.4}|nompageref}{20}
+\nomenclatureentry{a$T_{cc}$@[{$T_{cc}$}]\begingroup Combustion chamber temperature\nomeqref {4.4}|nompageref}{20}
+\nomenclatureentry{a$\dot{m}_p$@[{$\dot{m}_p$}]\begingroup Propellant mass flow rate\nomeqref {4.5}|nompageref}{20}
+\nomenclatureentry{a$m_p$@[{$m_p$}]\begingroup Propellant mass\nomeqref {4.5}|nompageref}{20}
+\nomenclatureentry{a$t_{burn}$@[{$t_{burn}$}]\begingroup Burning time\nomeqref {4.5}|nompageref}{20}
+\nomenclatureentry{a$A_e$@[{$A_e$}]\begingroup Exit section area of the EPC nozzle\nomeqref {4.6}|nompageref}{20}
+\nomenclatureentry{a$I_{sp_{ave}}$@[{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.7}|nompageref}{21}
+\nomenclatureentry{a$I_{sp_{SL}}$@[{$I_{sp_{SL}}$}]\begingroup EAP specific impulse at Sea Level\nomeqref {4.7}|nompageref}{21}
+\nomenclatureentry{a$I_{sp_{vac}}$@[{$I_{sp_{vac}}$}]\begingroup EAP specific impulse in vacuum\nomeqref {4.7}|nompageref}{21}
