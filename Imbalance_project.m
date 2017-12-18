@@ -173,8 +173,9 @@ x_CP = (x_CP_mb*(l_B-l_EAP) + (x_CP_EAP + l_B-l_EAP)*2*l_EAP)/(l_B-l_EAP+2*l_EAP
 
 CG = [16.23411 17.38154];                                                   % CG positions from the base [m]
 CP_CG = l_B - x_CP - CG;                                                    % CP-CG distance [m]
-T_EAP = [6485000 5242000];                                                  % EAP thrust [N]
-T_EPC = [934500 1251000];                                                   % EPC thrust
+%T_EAP = [6485000 5242000];                                                  % EAP thrust [N]
+T_EAP = [EAP_T(11) EAP_T(64)];
+T_EPC = [EPC_T(395) EPC_T(14571)];                                                   % EPC thrust
 q = [4686 34000];                                                           % Dynamic pressure [Pa]
 y_bar = 2.7 + 1.525;                                                        % Point of application of T_EAP [m]
 S = A_ref;                                                                  % Cross-section for N [m^2]
