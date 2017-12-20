@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.16)  18 DEC 2017 14:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/W32TeX) (preloaded format=pdflatex 2017.12.16)  20 DEC 2017 11:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2174,12 +2174,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 [13] [14]
 Chapter 3.
-<A5scheme.png, id=311, 179.4705pt x 261.3765pt>
+<A5scheme.png, id=315, 179.4705pt x 261.3765pt>
 File: A5scheme.png Graphic file (type png)
 <use A5scheme.png>
 Package pdftex.def Info: A5scheme.png  used on input line 327.
 (pdftex.def)             Requested size: 207.70522pt x 302.49898pt.
-<drag.png, id=314, 421.575pt x 316.18124pt>
+<drag.png, id=318, 421.575pt x 316.18124pt>
 File: drag.png Graphic file (type png)
 <use drag.png>
 Package pdftex.def Info: drag.png  used on input line 336.
@@ -2190,12 +2190,12 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [15
 
  <./A5scheme.png (PNG copy)>] [16 <./drag.png (PNG copy)>]
-<normf.png, id=332, 421.575pt x 316.18124pt>
+<normf.png, id=337, 421.575pt x 316.18124pt>
 File: normf.png Graphic file (type png)
 <use normf.png>
 Package pdftex.def Info: normf.png  used on input line 366.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
-<normfa.png, id=334, 421.575pt x 316.18124pt>
+<normfa.png, id=339, 421.575pt x 316.18124pt>
 File: normfa.png Graphic file (type png)
 <use normfa.png>
 Package pdftex.def Info: normfa.png  used on input line 381.
@@ -2209,18 +2209,18 @@ Chapter 4.
 [19
 
 ]
-<EPC_T.png, id=362, 421.575pt x 316.18124pt>
+<EPC_T.png, id=366, 421.575pt x 316.18124pt>
 File: EPC_T.png Graphic file (type png)
 <use EPC_T.png>
 Package pdftex.def Info: EPC_T.png  used on input line 448.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
  Excluding 'comment' comment.
-<EAP_T_point.png, id=365, 421.575pt x 316.18124pt>
+<EAP_T_point.png, id=369, 421.575pt x 316.18124pt>
 File: EAP_T_point.png Graphic file (type png)
 <use EAP_T_point.png>
 Package pdftex.def Info: EAP_T_point.png  used on input line 470.
 (pdftex.def)             Requested size: 199.6044pt x 149.70518pt.
-<EAP_T.png, id=366, 421.575pt x 316.18124pt>
+<EAP_T.png, id=370, 421.575pt x 316.18124pt>
 File: EAP_T.png Graphic file (type png)
 <use EAP_T.png>
 Package pdftex.def Info: EAP_T.png  used on input line 472.
@@ -2229,7 +2229,7 @@ Package pdftex.def Info: EAP_T.png  used on input line 472.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<EAP_mdot.png, id=367, 421.575pt x 316.18124pt>
+<EAP_mdot.png, id=371, 421.575pt x 316.18124pt>
 File: EAP_mdot.png Graphic file (type png)
 <use EAP_mdot.png>
 Package pdftex.def Info: EAP_mdot.png  used on input line 489.
@@ -2237,7 +2237,7 @@ Package pdftex.def Info: EAP_mdot.png  used on input line 489.
 [20 <./EPC_T.png (PNG copy)>] [21 <./EAP_T_point.png (PNG copy)> <./EAP_T.png (
 PNG copy)> <./EAP_mdot.png (PNG copy)>]
 Chapter 5.
-<A5m1.png, id=388, 70.76437pt x 273.27094pt>
+<A5m1.png, id=392, 70.76437pt x 273.27094pt>
 File: A5m1.png Graphic file (type png)
 <use A5m1.png>
 Package pdftex.def Info: A5m1.png  used on input line 546.
@@ -2248,7 +2248,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7.4> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 546.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <6> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 546.
-<A5m2.png, id=389, 59.47218pt x 228.855pt>
+<A5m2.png, id=393, 59.47218pt x 228.855pt>
 File: A5m2.png Graphic file (type png)
 <use A5m2.png>
 Package pdftex.def Info: A5m2.png  used on input line 548.
@@ -2257,7 +2257,7 @@ Package pdftex.def Info: A5m2.png  used on input line 548.
 
 ] [23 <./A5m1.png (PNG copy)> <./A5m2.png (PNG copy)>]
 Chapter 6.
-<TVC.jpg, id=407, 437.2335pt x 363.759pt>
+<TVC.jpg, id=411, 437.2335pt x 363.759pt>
 File: TVC.jpg Graphic file (type jpg)
 <use TVC.jpg>
 Package pdftex.def Info: TVC.jpg  used on input line 589.
@@ -2289,32 +2289,32 @@ Underfull \hbox (badness 10000) in paragraph at lines 685--686
 [28
 
 ]
-<emaxT.png, id=467, 421.575pt x 316.18124pt>
+<emaxT.png, id=471, 421.575pt x 316.18124pt>
 File: emaxT.png Graphic file (type png)
 <use emaxT.png>
 Package pdftex.def Info: emaxT.png  used on input line 700.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
-<emaxTl.png, id=468, 421.575pt x 316.18124pt>
+<emaxTl.png, id=472, 421.575pt x 316.18124pt>
 File: emaxTl.png Graphic file (type png)
 <use emaxTl.png>
 Package pdftex.def Info: emaxTl.png  used on input line 706.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
-<emaxTr.png, id=469, 421.575pt x 316.18124pt>
+<emaxTr.png, id=473, 421.575pt x 316.18124pt>
 File: emaxTr.png Graphic file (type png)
 <use emaxTr.png>
 Package pdftex.def Info: emaxTr.png  used on input line 712.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
-<emaxq.png, id=470, 421.575pt x 316.18124pt>
+<emaxq.png, id=474, 421.575pt x 316.18124pt>
 File: emaxq.png Graphic file (type png)
 <use emaxq.png>
 Package pdftex.def Info: emaxq.png  used on input line 719.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
-<emaxql.png, id=471, 421.575pt x 316.18124pt>
+<emaxql.png, id=475, 421.575pt x 316.18124pt>
 File: emaxql.png Graphic file (type png)
 <use emaxql.png>
 Package pdftex.def Info: emaxql.png  used on input line 725.
 (pdftex.def)             Requested size: 311.55782pt x 233.67133pt.
-<emaxqr.png, id=472, 421.575pt x 316.18124pt>
+<emaxqr.png, id=476, 421.575pt x 316.18124pt>
 File: emaxqr.png Graphic file (type png)
 <use emaxqr.png>
 Package pdftex.def Info: emaxqr.png  used on input line 731.
@@ -2426,11 +2426,11 @@ Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: A00FAF47710B522DC065A3758689F769;1482.
  ) 
 Here is how much of TeX's memory you used:
- 34978 strings out of 492985
- 667044 string characters out of 6136283
+ 34975 strings out of 492985
+ 667026 string characters out of 6136283
  865233 words of memory out of 5000000
- 37488 multiletter control sequences out of 15000+600000
- 663014 words of font info for 320 fonts, out of 8000000 for 9000
+ 37492 multiletter control sequences out of 15000+600000
+ 662434 words of font info for 314 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  61i,19n,96p,10376b,1062s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2017/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/texl
@@ -2447,10 +2447,10 @@ yr.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/symbol/usyr.pfb><c:/texlive/
 2017/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/texlive/2017/texmf-dist/fo
 nts/type1/urw/times/utmr8a.pfb><c:/texlive/2017/texmf-dist/fonts/type1/urw/time
 s/utmri8a.pfb>
-Output written on main.pdf (33 pages, 693906 bytes).
+Output written on main.pdf (33 pages, 693638 bytes).
 PDF statistics:
- 581 PDF objects out of 1000 (max. 8388607)
- 478 compressed objects within 5 object streams
- 159 named destinations out of 1000 (max. 500000)
+ 585 PDF objects out of 1000 (max. 8388607)
+ 482 compressed objects within 5 object streams
+ 161 named destinations out of 1000 (max. 500000)
  67369 words of extra memory for PDF output out of 74296 (max. 10000000)
 

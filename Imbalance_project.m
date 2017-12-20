@@ -6,7 +6,7 @@
 % Notes for upgrading this script: 
 %   Please do not upgrade directly this script. Make a your local copy and do
 %   your modifications and upgrades and send me the upgraded script.
-%   Contact the author for modifications.
+%   Contact the authors for modifications.
 %
 % DESCRIPTION: 
 %   This routine is used to simulate and analyze scenarios in
