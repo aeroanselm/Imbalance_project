@@ -1,6 +1,6 @@
 % data.m - Ariane 5 ECA ---Imbalance project---
 %  
-% TYPE:
+% TYPE:  
 %   Data Script
 %
 % DESCRIPTION: 

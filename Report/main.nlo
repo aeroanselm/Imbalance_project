@@ -47,6 +47,20 @@
 \nomenclatureentry{a$m_s^{EPC}    $    @[{$m_s^{EPC}    $    }]\begingroup Main stage structural mass                                                  \nomeqref {0}|nompageref}{5}
 \nomenclatureentry{a$m_s^{EAP}    $    @[{$m_s^{EAP}    $    }]\begingroup Booster structural mass                                                     \nomeqref {0}|nompageref}{5}
 \nomenclatureentry{a$R_u    $    @[{$R_u    $    }]\begingroup Universal gas constant                                                     \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$l_F        $@[{$l_F        $}]\begingroup Fairing length           \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$l_{ESCA}   $@[{$l_{ESCA}   $}]\begingroup ESC-A length             \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$l_{EPC}   $@[{$l_{EPC}   $}]\begingroup EPC length               \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$l_{N_{EAP}}$@[{$l_{N_{EAP}}$}]\begingroup EAP nose length          \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$x_f        $@[{$x_f        $}]\begingroup EAP flare position       \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$d_c        $@[{$d_c        $}]\begingroup Circle length            \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$d_{ESCA}   $@[{$d_{ESCA}   $}]\begingroup ESC-A diameter           \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$d_f        $@[{$d_f        $}]\begingroup EAP flare diameter       \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$d_{e_{EAP}}$@[{$d_{e_{EAP}}$}]\begingroup EAP exit nozzle diameter \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$M_F        $@[{$M_F        $}]\begingroup Fairing + Payload mass   \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$M_{ESCA}   $@[{$M_{ESCA}   $}]\begingroup ESC-A mass               \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$M_{EPC}    $@[{$M_{EPC}    $}]\begingroup EPC mass                 \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$M_{EAP}    $@[{$M_{EAP}    $}]\begingroup EAP mass                 \nomeqref {0}|nompageref}{5}
+\nomenclatureentry{a$o/f      $@[{$o/f      $}]\begingroup Oxidizer to fuel ratio\nomeqref {0}|nompageref}{5}
 \nomenclatureentry{a$I_{sp_{ave}}$@[{$I_{sp_{ave}}$}]\begingroup EAP average specific impulse\nomeqref {4.0}|nompageref}{19}
 \nomenclatureentry{a$I_{sp}$@[{$I_{sp}$}]\begingroup Specific Impulse\nomeqref {4.1}|nompageref}{19}
 \nomenclatureentry{a$V_e$@[{$V_e$}]\begingroup Velocity of the hot gasses on the nozzle exit section\nomeqref {4.1}|nompageref}{19}

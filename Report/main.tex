@@ -176,7 +176,20 @@ This report contains the results of the analysis of the thrust imbalance between
         \nomenclature{$m_s^{EPC}	   $    }{Main stage structural mass                                                  }%&\si{\kilogram}        	\\
         \nomenclature{$m_s^{EAP}	   $    }{Booster structural mass                                                     }%&\si{\kilogram}        	\\
         \nomenclature{$R_u	   $    }{Universal gas constant                                                     }%&\si{\kilogram}        	\\
-
+		\nomenclature{$l_F 	      $}{Fairing length           }
+		\nomenclature{$l_{ESCA}   $}{ESC-A length             }
+		\nomenclature{$l_{EPC}	  $}{EPC length               }
+		\nomenclature{$l_{N_{EAP}}$}{EAP nose length          }
+		\nomenclature{$x_f 	      $}{EAP flare position       }
+		\nomenclature{$d_c 	      $}{Circle length            }
+		\nomenclature{$d_{ESCA}   $}{ESC-A diameter           }
+		\nomenclature{$d_f 	      $}{EAP flare diameter       }
+		\nomenclature{$d_{e_{EAP}}$}{EAP exit nozzle diameter }
+		\nomenclature{$M_F 	      $}{Fairing + Payload mass   }
+		\nomenclature{$M_{ESCA}   $}{ESC-A mass               }
+		\nomenclature{$M_{EPC}    $}{EPC mass                 }
+		\nomenclature{$M_{EAP}    $}{EAP mass                 }
+		\nomenclature{$o/f      $}{Oxidizer to fuel ratio}
 % 		\bottomrule
 % 	\end{tabular}
 % 	\caption{List of Symbols}
@@ -238,7 +251,7 @@ As shown in figure \hypertarget{fig:hoq}{\ref{fig:hoq}}, the strongest competito
 \subsection{House of Quality analysis}
 \begin{figure}[h]
  \centering
- \includegraphics[width=1.2\textwidth,angle=270]{hoq}
+ \includegraphics[width=1.2\textwidth,angle=270]{HOQ}
  \caption{\emph{HOQ analysis}}
  \label{fig:hoq}
 \end{figure}
@@ -291,7 +304,7 @@ As shown in figure \hypertarget{fig:hoq}{\ref{fig:hoq}}, the strongest competito
 		$I_{sp_{vac}} 	$						&$274.5  $			&\si{\second}                       \\
 		$g_0			$							&$9.81   $		&	\si{\meter\over\second\squared}\\
 		$m_{prop}   		$						&$173300 $		&	\si{\kilogram}					\\
-		$e_{ratio}		$							&$61.5   $		&	\si{}                           \\
+		$\varepsilon		$							&$61.5   $		&	\si{}                           \\
 		$\gamma			$					    &$1.2873 $			&\si{}                               \\
 		$P_{cc}			$						    &$116e5  $		&	\si{\pascal}                    \\
 		$T_{cc}			$						    &$3539.57$		&	\si{\kelvin}                    \\
@@ -395,7 +408,7 @@ In this relation the effects of the nose (1), body (2), and flare (3) are consid
  \frac{x_{CP}^{EAP}}{d_{EAP}}=\frac{2}{3}\frac{l_{EAP}A_{EAP}}{d_{EAP}A_f}+\Biggl(1-\frac{A_{EAP}}{A_f}\Biggr)\frac{l_{EAP}}{d_{EAP}}-\frac{h_f}{d_{EAP}}\Biggl(\frac{d^2_m}{d^2_{EAP}}-1\Biggr)\frac{A_{EAP}}{A_f}
 \end{equation}
 \begin{equation}
- x_{CP}=\frac{x_{CP}^{EPC}(l_B-l_{EAP})+2x_{CP}^{EAP}l_B}{(l_B-l_{EAP})+2l_B}=\SI{19.2756}{m}
+ x_{CP}=\frac{x_{CP}^{EPC}(l_B-l_{EAP})+2x_{CP}^{EAP}l_B}{(l_B-l_{EAP})+2l_B}=\SI{19.28}{m}
 \end{equation}
 The assumption that the centre of pressure will remain always in that position from the nose of the rocket has been made. 
 
@@ -433,7 +446,7 @@ Once computed the pressure the next step is to obtain the velocity:
 \nomenclature{$T_{cc}$}{Combustion chamber temperature}
 Since the propellant total mass and the burning time are known the propellant mass flow rate can be obtained. It's also reasonable to consider it constant beeing the \textit{Vulcain 2} a liquid rocket engine.
 \begin{equation}
- \dot{m}_p = \frac{m_p}{t_{burn}}
+ \dot{m}_p = \frac{m_p}{t_{burn}}=\SI{320.93}{\kilogram\over\second}
 \end{equation}
 \nomenclature{$\dot{m}_p$}{Propellant mass flow rate}
 \nomenclature{$m_p$}{Propellant mass}
@@ -500,10 +513,10 @@ Using the data from the baseline, the main parameters have been calculated to ev
 										&$t=\SI{0}{s}$ 			&$t = \SI{18}{s}$ 		&$t = \SI{71}{s}$	\\
 										&[\si{\kilogram}]			&[\si{\kilogram}]			&[\si{\kilogram}]		\\
 \midrule                                                                                                             
-Main stage hydrogen 					&$24757.14$			&$24252.8308$			&$21822.943 $		\\
-Main stage oxigen 						&$14854.2857$			&$14551.6957$			&$13093.7857$        \\
-Booster propellant cylinder shape 		&$214100	   $		&	$175583.760$		&	$85354.600 $        \\
-Booster propellant star shape 			&$23150	   $			&$18984.240 $			&$9225.400  $        \\
+Main stage hydrogen 					&$24757.14$			&$24252.83$			&$21822.94 $		\\
+Main stage oxigen 						&$148542.86$			&$145516.96$			&$13093.79$        \\
+Booster propellant cylinder shape 		&$214100	   $		&	$175583.76$		&	$85354.60 $        \\
+Booster propellant star shape 			&$23150	   $			&$18984.24 $			&$9225.40  $        \\
 \bottomrule
 \end{tabular} 
 \caption{\emph{Propellant mass distribution data}}
@@ -517,14 +530,14 @@ Booster propellant star shape 			&$23150	   $			&$18984.240 $			&$9225.400  $   
 										&$LH_2$ 			&$LOX$ 				&$Booster$	\\
 										&[\si{\kilogram}]			&[\si{\kilogram}]			&[\si{\kilogram}]		\\
 \midrule                                                                                                             
-Mass burned								&$504.3122$			&$3025.9$			&$42682$			\\
+Mass burned								&$504.31$			&$3025.9$			&$42682$			\\
 \bottomrule
 \end{tabular} 
 \caption{\emph{Maximum EAP thrust condition at \SI{18}{s}}}        
 \label{tab:maxEAP}                       
 \end{table}                             
                       
-\noindent Removing the corresponding part of propellant, taking in account its burning behavior, from the full-of-propellant case, the center of gravity results to be at \SI{16.2341}{m} (from the base of the launcher). It can be noticed that the top part of the \textbf{EAP} has a star-shaped component, that guarantees the higher thrust profile. The maximum dynamic pressure case corresponds to $time = \SI{71}{s}$. In an analogous way to the maximum thrust case, the mass of propellant burned has been found. In table \hypertarget{tab:maxP}{\ref{tab:maxP}} are reported the results.  
+\noindent Removing the corresponding part of propellant, taking in account its burning behavior, from the full-of-propellant case, the center of gravity results to be at \SI{16.23}{m} (from the base of the launcher). It can be noticed that the top part of the \textbf{EAP} has a star-shaped component, that guarantees the higher thrust profile. The maximum dynamic pressure case corresponds to $time = \SI{71}{s}$. In an analogous way to the maximum thrust case, the mass of propellant burned has been found. In table \hypertarget{tab:maxP}{\ref{tab:maxP}} are reported the results.  
 
 \begin{table}[h]
 	\centering
@@ -539,7 +552,7 @@ Mass burned								&$2934.2$			&$17605$			&$142670$			\\
 \caption{\emph{Maximum dynamic pressure condition at \SI{71}{s}}}        
 \label{tab:maxP}                       
 \end{table} 
-\noindent Removing the corresponding part of propellant from the full-of-propellant case, the center of gravity results to be at \SI{17.3815}{m}. In particular, it can be noticed that the top part of the \textbf{EAP} is no more star-shaped. The resulting mass distributions inside the rocket for the two cases are shown in figure \hypertarget{fig:subfigA5}{\ref{fig:subfigA5}}. 
+\noindent Removing the corresponding part of propellant from the full-of-propellant case, the center of gravity results to be at \SI{17.38}{m}. In particular, it can be noticed that the top part of the \textbf{EAP} is no more star-shaped. The resulting mass distributions inside the rocket for the two cases are shown in figure \hypertarget{fig:subfigA5}{\ref{fig:subfigA5}}. 
 \begin{figure}[h]
 \centering
 \subfloat[][\emph{Mass distribution at \SI{18}{s}}]
@@ -600,12 +613,12 @@ Parameter					&Value 				\\
 \midrule                                                                                                             
 $Time\; after\; launch$			&\SI{18}{s}			\\
 $Altitude$					&\SI{394.7}{m}      \\
-$CG\;\; position\; from\; the\; base$	&\SI{16.2341}{m}    \\
-$CP-CG $				&\SI{14.9903}{m}    \\
-$\bar{y}$ 					&\SI{4.225}{m}      \\
-$T_{EAP}$						&\SI{6.485}{MN}     \\
-$T_{EPC}$						&\SI{0.9345}{MN}    \\
-$q$							&\SI{4.686}{kPa}    \\
+$CG\;\; position\; from\; the\; base$	&\SI{16.23}{m}    \\
+$CP-CG $				&\SI{14.99}{m}    \\
+$\bar{y}$ 					&\SI{4.23}{m}      \\
+$T_{EAP}$						&\SI{6.49}{MN}     \\
+$T_{EPC}$						&\SI{0.93}{MN}    \\
+$q$							&\SI{4.69}{kPa}    \\
 \bottomrule
 \end{tabular} 
 \caption{\emph{Parameters for maximum EAP thrust}}        
@@ -666,11 +679,11 @@ Parameter					&Value 				\\
 \midrule                                                                                                             
 $Time\; after\; launch$			&\SI{71}{s}			\\
 $Altitude$					&\SI{14570}{m}      \\
-$CG\; position\; from\; the\; base$	&\SI{17.3815}{m}    \\
-$CP-CG $				&\SI{13.8428}{m}    \\
-$\bar{y}$ 					&\SI{4.225}{m}      \\
-$T_{EAP}$						&\SI{5.242}{MN}     \\
-$T_{EPC}$						&\SI{1.251}{MN}    \\
+$CG\; position\; from\; the\; base$	&\SI{17.38}{m}    \\
+$CP-CG $				&\SI{13.84}{m}    \\
+$\bar{y}$ 					&\SI{4.23}{m}      \\
+$T_{EAP}$						&\SI{5.24}{MN}     \\
+$T_{EPC}$						&\SI{1.25}{MN}    \\
 $q$							&\SI{34}{kPa}    \\
 \bottomrule
 \end{tabular} 
