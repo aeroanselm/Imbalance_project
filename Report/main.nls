@@ -20,8 +20,6 @@
 		\nompageref{5}
   \item [{$\dot{m}_p$}]\begingroup Propellant mass flow rate\nomeqref {4.5}
 		\nompageref{20}
-  \item [{$\dot{m}_{prop}$      }]\begingroup propellant mass flow rate                                                   \nomeqref {0}
-		\nompageref{5}
   \item [{$\gamma$}]\begingroup Heat capacity ratio\nomeqref {4.2}
 		\nompageref{19}
   \item [{$\phi   $      }]\begingroup Bank angle                                                                  \nomeqref {0}
@@ -58,7 +56,7 @@
 		\nompageref{5}
   \item [{$d_f        $}]\begingroup EAP flare diameter       \nomeqref {0}
 		\nompageref{5}
-  \item [{$d_m   $          }]\begingroup Minimum Diameter                                                            \nomeqref {0}
+  \item [{$d_m   $          }]\begingroup Mean Diameter                                                            \nomeqref {0}
 		\nompageref{5}
   \item [{$d_{e_{EAP}}$}]\begingroup EAP exit nozzle diameter \nomeqref {0}
 		\nompageref{5}
@@ -113,8 +111,6 @@
   \item [{$M_{EAP}    $}]\begingroup EAP mass                 \nomeqref {0}
 		\nompageref{5}
   \item [{$M_{EPC}    $}]\begingroup EPC mass                 \nomeqref {0}
-		\nompageref{5}
-  \item [{$m_{ESC-A}    $    }]\begingroup Second stage mass                                                           \nomeqref {0}
 		\nompageref{5}
   \item [{$M_{ESCA}   $}]\begingroup ESC-A mass               \nomeqref {0}
 		\nompageref{5}
